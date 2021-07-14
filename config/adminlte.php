@@ -249,11 +249,18 @@ return [
         //     'label'       => 4,
         //     'label_color' => 'success',
         // ],
-        ['header' => 'MENU UTAMA'],
         [
             'text' => 'Dashboard',
             'url'  => 'home',
             'icon' => 'fas fa-fw fa-home',
+            // 'can'  => 'manage-user',
+        ],
+        ['header' => 'MENU ADMIN'],
+        [
+            'text' => 'Siswa',
+            'url'  => 'admin/siswa',
+            'icon' => 'fas fa-fw fa-user',
+            'active' => ['admin/siswa', 'regex:@^admin/siswa/[0-9]+$@', 'regex:@^admin/siswa/[0-9]/edit+$@', 'admin/siswa/create'],
             // 'can'  => 'manage-user',
         ],
 

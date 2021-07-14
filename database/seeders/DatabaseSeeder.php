@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Laravolt\Indonesia\Seeds\DatabaseSeeder as SeedsDatabaseSeeder;
-
+use Modules\Siswa\Database\Seeders\SiswaDatabaseSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -21,3 +21,4 @@ class DatabaseSeeder extends Seeder
         $this->call(SeedsDatabaseSeeder::class);
     }
 }
+

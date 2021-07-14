@@ -11,12 +11,14 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "jeroennoten/laravel-adminlte": "^3.6",
+        "joshbrw/laravel-module-installer": "^2.0",
         "laravel-lang/lang": "^10.1",
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
         "laravelcollective/html": "^6.2",
         "laravolt/indonesia": "^0.29.0",
+        "nwidart/laravel-modules": "^8.2",
         "realrashid/sweet-alert": "^4.0",
         "spatie/laravel-permission": "^4.2"
     },
@@ -32,7 +34,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Modules\\": "Modules/"
         }
     },
     "autoload-dev": {
